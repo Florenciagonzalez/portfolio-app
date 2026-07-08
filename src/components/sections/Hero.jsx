@@ -5,7 +5,7 @@ function Hero() {
         <section className="bg-(--bg-gray-app)">
             <div className="w-full flex flex-col border border-zinc-700 rounded-xl mt-4">
 
-                <div className="m-4 p-2 flex gap-6">
+                <div className="m-4 p-2 flex flex-col md:flex-row items-center gap-6">
                     <Avatar />
                     <div className="">
                         <h2 className="font-family text-4xl font-bold p-2">Florencia Belen Gonzalez</h2>
