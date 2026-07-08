@@ -1,0 +1,32 @@
+:root {
+    --bg-gray-app: #121212;
+    --text-white: #fafafa;
+    
+}
+
+body{
+    background-color: var(--bg-gray-app);
+    color: var(--text-white);
+}
+
+h2 {
+  font-family: "Cantarell", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  
+}
+
+
+@keyframes float-spin {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-3px) rotate(15deg);
+  }
+}
+
+.animate-float-spin {
+  animation: float-spin 4s ease-in-out infinite;
+}
+
