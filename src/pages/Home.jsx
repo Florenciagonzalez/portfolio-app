@@ -1,6 +1,8 @@
 import PixelSnow from "../components/background/PixelSnow";
 import About from "../components/sections/About";
+import Education from "../components/sections/Education";
 import Hero from "../components/sections/Hero";
+import Projects from "../components/sections/Projects";
 
 function Home() {
 
@@ -23,7 +25,7 @@ function Home() {
                         variant="square"
                     />
                 </div>
-                <div className="min-h-screen flex flex-col items-center">
+                <div className="min-h-screen flex flex-col items-center mb-5">
 
                     <div className="w-full sm:w-4/5 lg:w-3/5">
                         <div className=" mt-4 p-2 border border-zinc-700 rounded-xl bg-(--bg-gray-app)">
@@ -55,7 +57,8 @@ function Home() {
                         <div className="w-full border border-zinc-700 p-2 rounded-xl mt-4">
                             <Hero />
                             <About />
-
+                            <Projects />
+                            <Education />
                         </div>
 
                     </div>

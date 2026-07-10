@@ -9,11 +9,10 @@ body{
     color: var(--text-white);
 }
 
-h2 {
+h2, h3 {
   font-family: "Cantarell", sans-serif;
   font-weight: 700;
-  font-style: normal;
-  
+  font-style: normal; 
 }
 
 
