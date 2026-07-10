@@ -29,7 +29,7 @@ function Home() {
                 <div className="min-h-screen flex flex-col items-center mb-5">
 
                     <div className="w-full sm:w-4/5 lg:w-3/5">
-                        <div className="sticky top-4 z-50 mt-4 p-2 border border-zinc-700 rounded-xl bg-(--bg-gray-app) backdrop-blur-md">
+                        <div className="mt-4 p-2 border border-zinc-700 rounded-xl bg-(--bg-gray-app)">
                             <nav className="flex justify-between items-center ">
                                 <a href="#"><svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24"
                                     className="w-10 h-10 fill-white/70 animate-float-spin cursor-pointer">
