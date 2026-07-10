@@ -2,7 +2,7 @@ import Avatar from "../Avatar";
 
 function Hero() {
     return (
-        <section className="bg-(--bg-gray-app)">
+        <section id="hero" className="bg-(--bg-gray-app)">
             <div className="w-full flex flex-col border border-zinc-700 rounded-xl mt-4">
 
                 <div className="m-4 p-2 flex flex-col md:flex-row items-center gap-6">
