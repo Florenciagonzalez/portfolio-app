@@ -1,4 +1,5 @@
 
+import { MdArrowOutward } from "react-icons/md";
 function ProjectCard({ project }) {
     return (
         <>
@@ -18,8 +19,9 @@ function ProjectCard({ project }) {
                         <img src={project.img} alt="" className=" cursor-pointer transition-transform duration-500"/>
                         <div className="absolute inset-0 flex items-center justify-center bg-black/0 transition-all duration-300 group-hover:bg-black/60">
                             <span className="text-lg opacity-0 font-semibold transition-opacity duration-300 group-hover:opacity-100">
-                                Ver proyecto →
+                                Ver proyecto 
                             </span>
+                            <MdArrowOutward />
                         </div>
                     </a>
                 </div>

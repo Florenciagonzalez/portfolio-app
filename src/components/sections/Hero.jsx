@@ -1,4 +1,6 @@
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Avatar from "../Avatar";
+import { MdEmail } from "react-icons/md";
 
 function Hero() {
     return (
@@ -7,9 +9,16 @@ function Hero() {
 
                 <div className="m-4 p-2 flex flex-col md:flex-row items-center gap-6">
                     <Avatar />
-                    <div className="">
-                        <h2 className="font-family text-2xl md:text-4xl font-bold p-2">Florencia Belen Gonzalez</h2>
-                        <p className="font-extralight p-2">Turning curiosity into code and ideas into impactful digital experiences. Always learning, always building, and always chasing the next challenge.</p>
+                    <div className="flex flex-col gap-y-2">
+                        <h2 className="font-family text-center md:text-start text-2xl md:text-4xl font-bold ">Florencia Belen Gonzalez</h2>
+                        <h3 className="text-center md:text-start ">| Frontend Developer Jr</h3>
+                        <p className="font-extralight">Turning curiosity into code and ideas into impactful digital experiences. Always learning, always building, and always chasing the next challenge.</p>
+                        <ul className="flex gap-3 justify-center md:justify-start">
+                            <li className="hover:scale-125 hover:animate-pulse"><a href="https://github.com/Florenciagonzalez" target="_blank"><FaGithub size={25} /></a></li>
+                            <li className="hover:scale-125 hover:animate-pulse"><a href="https://www.linkedin.com/in/florencia-belen-gonzalez/" target="_blank"><FaLinkedin size={25}/></a></li>
+                            <li className="hover:scale-125 hover:animate-pulse"><a href="mailto:florenciabgonzalez24@gmail.com"><MdEmail size={25}/></a></li>
+                            
+                        </ul>
                     </div>
                 </div>
             </div>

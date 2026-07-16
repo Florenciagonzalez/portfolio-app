@@ -5,7 +5,7 @@ export const projects = [
         title: "CAADi - plataforma web accesible",
         details: "Plataforma web accesible que centraliza información administrativa y de servicios para personas con discapacidad, con navegación responsiva, mapa interactivo y panel de administración.",
         img: "/images/caadi-project.png",
-        tecnologies: ["React js", "Tailwind CSS", "JavaScript", "Figma"]
+        tecnologies: ["React.js", "Tailwind CSS", "JavaScript", "Figma"]
     },
 
 
