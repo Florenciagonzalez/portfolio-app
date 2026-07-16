@@ -40,15 +40,16 @@ const skills = [
 function Skills() {
     return (
         <Section id="skills" title={"Tecnologías"}>
-            <ul className="flex flex-wrap gap-2">
-                {skills.map(skill => (
-                    <li key={skill.name} className="flex justify-center items-center p-1 border-2 border-gray-500 rounded-lg">
-                        {skill.name}
-                        <span className="ml-1">{skill.icon}</span>
-                    </li>
-                ))}
-            </ul>
-
+            <div className="p-2">
+                <ul className="flex flex-wrap gap-2">
+                    {skills.map(skill => (
+                        <li key={skill.name} className="flex justify-center items-center p-1 border-2 border-gray-500 rounded-lg">
+                            {skill.name}
+                            <span className="ml-1">{skill.icon}</span>
+                        </li>
+                    ))}
+                </ul>
+            </div>
         </Section>
     );
 }
