@@ -5,7 +5,7 @@ import Education from "../components/sections/Education";
 import Hero from "../components/sections/Hero";
 import Projects from "../components/sections/Projects";
 import Skills from "../components/sections/Skills";
-
+import banner from "../assets/banner-moon.png"
 function Home() {
 
     return (
@@ -56,13 +56,19 @@ function Home() {
                             </nav>
                         </div>
 
-                        <div className="w-full border border-zinc-700 p-4 rounded-xl mt-4">
-                            <Hero />
-                            <About />
-                            <Projects />
-                            <Education />
-                            <Skills />
-                            <Contact />
+                        <div className="w-full border border-zinc-700 rounded-xl mt-4">
+                            <img src={banner} alt="" className="rounded-t-xl w-full" />
+                            
+                            <div className="p-2">
+
+                                <Hero />
+                                <About />
+                                <Projects />
+                                <Education />
+                                <Skills />
+                                <Contact />
+                            </div>
+
                         </div>
 
                     </div>
