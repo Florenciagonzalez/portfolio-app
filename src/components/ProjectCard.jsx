@@ -10,7 +10,7 @@ function ProjectCard({ project }) {
                         <p className="mr-2">{project.details}</p>
                         <ul className="flex flex-wrap items-start md:flex-row mt-2 mb-2">
                             {project.tecnologies.map(tecnology => (
-                                <li key={tecnology} className="p-1 m-1 text-emerald-500 font-semibold border border-emerald-500 rounded-md">{tecnology}</li>
+                                <li key={tecnology} className="p-1 m-1 text-emerald-500  border border-emerald-500 rounded-md">{tecnology}</li>
                             ))}
                         </ul>
 

@@ -12,14 +12,13 @@ html {
 body {
   background-color: var(--bg-gray-app);
   color: var(--text-white);
+  font-family: "Cantarell", sans-serif;
+  font-style: normal;
+
 }
 
-h2,
-h3 {
-  font-family: "Cantarell", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
+
+
 
 
 @keyframes float-spin {
