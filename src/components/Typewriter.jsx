@@ -36,7 +36,7 @@ function Typewriter() {
     }, [isDeleting, phraseIndex, speed, charIndex]);
 
     return (
-        <h3 className="flex text-center items-center font-bold text-sky-500">
+        <h3 className="flex text-center items-center font-bold">
             <span>|</span>
             <span>{text}</span><span className="animate-pulse">|</span></h3>
     );

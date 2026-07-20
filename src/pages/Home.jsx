@@ -1,6 +1,5 @@
 import PixelSnow from "../components/background/PixelSnow";
 import About from "../components/sections/About";
-import Contact from "../components/sections/Contact";
 import Education from "../components/sections/Education";
 import Hero from "../components/sections/Hero";
 import Projects from "../components/sections/Projects";
@@ -48,8 +47,8 @@ function Home() {
                                         </a>
                                     </li>
                                     <li className="relative inline-block transition-colors duration-300 hover:text-white after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-full after:bg-white after:origin-center after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">
-                                        <a href="#contact">
-                                            Contacto
+                                        <a href="#skills">
+                                            Tecnologías
                                         </a>
                                     </li>
                                 </ul>
@@ -66,7 +65,7 @@ function Home() {
                                 <Projects />
                                 <Education />
                                 <Skills />
-                                <Contact />
+                                
                             </div>
 
                         </div>
