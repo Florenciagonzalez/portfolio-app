@@ -13,7 +13,7 @@ function Hero() {
                         <Avatar />
                     </div>
 
-                    <div className="flex flex-col items-center md:items-start gap-y-2">
+                    <div className="flex flex-col items-center md:items-start gap-y-5">
                         <h2 className="font-family text-center md:text-start text-2xl md:text-4xl font-bold md:mb-4">Florencia Belen Gonzalez</h2>
                         <Typewriter />
                         <p className=" text-center md:text-start">Transformando la curiosidad en código y las ideas en experiencias digitales. Siempre aprendiendo, siempre creando y siempre en busca del próximo desafío.</p>
