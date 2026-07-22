@@ -1,6 +1,6 @@
-import { Fa500Px, FaAddressBook, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Avatar from "../Avatar";
-import { Md10K, Md3P, MdAttachFile, MdEmail, MdFileCopy, MdFileDownload, MdFileOpen, MdFilePresent, MdFileUploadOff } from "react-icons/md";
+import { MdEmail, MdFileOpen } from "react-icons/md";
 import Typewriter from "../Typewriter";
 
 function Hero() {
