@@ -18,7 +18,7 @@ function Hero() {
                         <Typewriter />
                         <p className=" text-center md:text-start">Transformando la curiosidad en código y las ideas en experiencias digitales. Siempre aprendiendo, siempre creando y siempre en busca del próximo desafío.</p>
                         <ul className="flex gap-3 justify-center md:justify-start">
-                            <li><a href="/cv-florencia-gonzalez.pdf" rel="noopener noreferrer" target="_blank" className="bg-sky-600 hover:bg-sky-700 cursor-pointer rounded-sm p-1.5 text-sm font-semibold flex justify-center items-center"><span><MdFileOpen /></span>Ver CV</a></li>
+                            <li><a href="/frontend-dev-jr-Florencia-Gonzalez.pdf" rel="noopener noreferrer" target="_blank" className="bg-sky-600 hover:bg-sky-700 cursor-pointer rounded-sm p-1.5 text-sm font-semibold flex justify-center items-center"><span><MdFileOpen /></span>Ver CV</a></li>
                             <li className="hover:scale-125 hover:animate-pulse"><a href="https://github.com/Florenciagonzalez" target="_blank"><FaGithub size={30} /></a></li>
                             <li className="hover:scale-125 hover:animate-pulse"><a href="https://www.linkedin.com/in/florencia-belen-gonzalez/" target="_blank"><FaLinkedin size={30} /></a></li>
                             <li className="hover:scale-125 hover:animate-pulse"><a href="mailto:florenciabgonzalez24@gmail.com"><MdEmail size={30} /></a></li>
