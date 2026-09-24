@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const phrases = ["Frontend Developer Jr", "Siempre aprendiendo"];
+const phrases = ["Backend Developer", "Siempre aprendiendo"];
 
 function Typewriter() {
     const [phraseIndex, setPhraseIndex] = useState(0);
