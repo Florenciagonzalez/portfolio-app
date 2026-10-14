@@ -1,7 +1,7 @@
 import Section from "./Section";
-import { FaHtml5, FaJs, FaReact, FaCss3Alt, FaGitAlt, FaGithub, FaFigma, FaJava } from "react-icons/fa";
+import { FaHtml5, FaJs, FaReact, FaCss3Alt, FaGitAlt, FaGithub, FaFigma, FaJava, FaServer, FaDocker } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri"
-import { SiSpringboot, SiSpringsecurity, SiHibernate } from "react-icons/si"
+import { SiSpringboot, SiHibernate, SiSpring, SiPostman, SiApachemaven } from "react-icons/si"
 
 const skillCategories = [
     {
@@ -9,8 +9,11 @@ const skillCategories = [
         items: [
             { name: "Java", icon: <FaJava /> },
             { name: "Spring Boot", icon: <SiSpringboot /> },
-            { name: "Spring Security", icon: <SiSpringsecurity /> },
             { name: "Spring Data JPA", icon: <SiHibernate /> },
+            { name: "Spring Cloud", icon: <SiSpring /> },
+            { name: "Eureka Server", icon: <FaServer /> },
+
+            
         ]
     },
     {
@@ -28,6 +31,9 @@ const skillCategories = [
         items: [
             { name: "Git", icon: <FaGitAlt /> },
             { name: "GitHub", icon: <FaGithub /> },
+            { name: "Postman", icon: <SiPostman /> },
+            { name: "Maven", icon: <SiApachemaven /> },
+            { name: "Docker", icon: <FaDocker/> },
             { name: "Figma", icon: <FaFigma /> },
         ]
     },

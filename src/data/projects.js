@@ -8,6 +8,13 @@ export const projects = [
     },
     {
         id: 2,
+        title: "Social Network",
+        details: "Proyecto de práctica de interacción de microservicios Usuarios y Posts, utilizando OpenFeign, Eureka server y Load balancing.",
+        tecnologies: ["Java", "Spring Boot", "OpenFeign", "Load Balancing", "Eureka Server", "MySQL"],
+        github: "https://github.com/Florenciagonzalez/socialnetwork"
+    },
+    {
+        id: 3,
         title: "CAADi - plataforma web accesible",
         details: "Diseño e implementación de plataforma web accesible que centraliza información administrativa y de servicios para personas con discapacidad, con navegación responsiva, mapa interactivo y panel de administración.",
         img: "/images/caadi-project.png",
