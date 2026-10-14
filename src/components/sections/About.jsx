@@ -5,11 +5,10 @@ function About() {
         <Section id="about" title="Sobre mi">
             <div className="">
                 <p className="p-2">
-                    Soy Backend Developer, graduada de la Tecnicatura Universitaria en Desarrollo de Aplicaciones Informáticas. 
-                    Me especializo en el ecosistema Spring (Spring Boot, Spring Security, Data JPA), diseñando APIs robustas y arquitecturas basadas en microservicios.
+                    Soy Backend Developer, graduada de la Tecnicatura Universitaria en Desarrollo de Aplicaciones Informáticas. Me enfoco en el desarrollo backend con Java y Spring, trabajando en la construcción de APIs REST y arquitecturas de microservicios.
                 </p>
                 <p className="p-2">
-                    Disfruto aprender nuevas herramientas, enfrentar desafíos técnicos y seguir creciendo profesionalmente, aportando soluciones sólidas del lado del servidor.
+                    Me motiva resolver desafíos técnicos, escribir código claro y mantenible, y seguir ampliando mis conocimientos para desarrollar soluciones cada vez mejores.
                 </p>
             </div>
         </Section>
