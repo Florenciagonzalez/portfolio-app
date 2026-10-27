@@ -1,6 +1,7 @@
 import PixelSnow from "../components/background/PixelSnow";
 import Navbar from "../components/Navbar";
 import About from "../components/sections/About";
+import Certifications from "../components/sections/Certifications";
 import Education from "../components/sections/Education";
 import Hero from "../components/sections/Hero";
 import Projects from "../components/sections/Projects";
@@ -37,7 +38,7 @@ function Home() {
                                 <Projects />
                                 <Education />
                                 <Skills />
-                                
+                                <Certifications />
                             </div>
 
                         </div>

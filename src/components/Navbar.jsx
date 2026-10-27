@@ -29,6 +29,11 @@ function Navbar() {
                             Tecnologías
                         </a>
                     </li>
+                    <li className="relative inline-block transition-colors duration-300 hover:text-white after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-full after:bg-white after:origin-center after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">
+                        <a href="#certifications">
+                            Certificaciones
+                        </a>
+                    </li>
                 </ul>
 
                 <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-3xl text-white/70">
